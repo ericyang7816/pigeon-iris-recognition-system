@@ -44,4 +44,6 @@ dependencies {
     implementation 'org.pytorch:pytorch_android_lite:1.9.0'
     implementation 'org.pytorch:pytorch_android_torchvision:1.9.0'
 
+    compile 'com.alibaba:fastjson:1.2.76'
+    implementation files('libs/Jama-1.0.3.jar')
 }
