@@ -86,4 +86,7 @@ lint/tmp/
 
 data/
 yolov5/
+datasets/
+siamese/
+models/
 loc.py
