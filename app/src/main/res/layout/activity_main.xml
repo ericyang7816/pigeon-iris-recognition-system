@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.xuexiang.xui.widget.actionbar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleBar"
+        android:background="@color/xui_config_color_titlebar"
+        app:tb_barHeight="60dp"
+        app:tb_sideTextPadding="20dp"
+        app:tb_actionPadding="20dp"
+        app:tb_titleText="信鸽虹膜比对系统"
+        app:tb_titleTextSize="24sp"/>
+
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:id="@+id/layout_select_1"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/xui_config_color_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        app:xui_borderColor="?attr/xui_config_color_separator_light"
+        app:xui_outerNormalColor="?attr/xui_config_color_background"
+        app:xui_showBorderOnlyBeforeL="true">
+
+        <TextView
+            android:id="@+id/compare_description"
+            android:text="@string/compare_description"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+    <com.xuexiang.xui.widget.layout.XUILinearLayout
+        android:id="@+id/layout_select_2"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/xui_config_color_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        app:xui_borderColor="?attr/xui_config_color_separator_light"
+        app:xui_outerNormalColor="?attr/xui_config_color_background"
+        app:xui_showBorderOnlyBeforeL="true">
+
+        <TextView
+            android:id="@+id/search_description"
+            android:text="@string/search_description"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </com.xuexiang.xui.widget.layout.XUILinearLayout>
+
+</LinearLayout>

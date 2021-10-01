@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">虹膜比对</string>
+    <string name="compare_description">计算虹膜相似度</string>
+    <string name="search_description">相似虹膜检索</string>
+</resources>
