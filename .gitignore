@@ -83,3 +83,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+data/
+yolov5/
+datasets/
+siamese/
+models/
+loc.py
